@@ -82,7 +82,7 @@ echo "$pterodactylfix" >> Lua/ModLoader.lua
 echo "Downloading Mod Manager"
 wget -N -q --show-progress https://github.com/Milord-ThatOneModder/Barotrauma-ModManager/releases/latest/download/ModManager.zip -O ModManager.zip
 unzip -qo ModManager.zip
-wget -N -q --show-progress https://raw.githubusercontent.com/lighthouse-servers/BT-PterodactylDockerImage/main/mod_manager.sh -O mod_manager.sh
+wget -N -q --show-progress https://raw.githubusercontent.com/lighthouse-servers/BTPterodactylDockerImage/master/mod_manager.sh -O mod_manager.sh
 chmod +x mod_manager.sh
 
 touch custom_script.sh
