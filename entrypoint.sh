@@ -76,7 +76,7 @@ Hook.Add('think', 'ConsoleInput', function()
                 Game.ExecuteCommand(Console.ReadLine())
     end
 end)"
-echo "$pterodactylfix" >> Lua/ModLoader.lua
+echo "$pterodactylfix" >> LocalMods/LuaCsForBarotrauma/Lua/LuaSetup.lua
 
 # ModManager download and update
 echo "Downloading Mod Manager"
